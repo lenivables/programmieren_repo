@@ -153,5 +153,6 @@ Die binäre Suche hat im besten Fall eine minimale Laufzeit von O(1), wenn der g
 ![image](https://github.com/user-attachments/assets/8d03fa37-8749-447e-907c-f0f1e6e1c922)
 
 ## Fazit der Laufzeiten
-
-## Zusammenfassung
+Grundsätzlich kann man erkennen, dass je mehr Songs zu durchsuchen/sortieren sind, desto mehr Zeit benötigt jeder Algorithmus. Vor allem bei den einfacheren Algorithmen wie dem Bubble und Insertion Sort erkennt man bereits, dass diese schnell sehr lange dauern können. Denn während der Merge Sort sich gerade so verdoppelt hat in seiner Laufzeit, hat sich der Bubble Sort fast verzehnfacht. So kann nur geahnt werden, mit was für exorbitanten Laufzeiten zu rechnen ist, wenn mehrere Zehntausend oder sogar Hunderttausend Songs sortiert werden müssen statt nur ein paar Hundert. 
+Zudem zeigt sich auch schon bei den drei Stichproben für die Suchalgorithmen, dass der binäre Algorithmus tendenziell schneller ist als der Lineare Algorithmus. 
+Schlussendlich gilt jedoch, dass jeder Algorithmus seine Daseinsberechtigung hat. Je nachdem ob man eine simple Implementierung, eine schnelle Laufzeit, eine bereits sortierte Liste oder eine sehr große Liste als Grundlage hat, kann ein objektiv „schlechter“ Algorithmus wie der Bubble Sort trotzdem die beste Wahl sein. Genau so kann es Sinn machen, in einem Projekt einen Linearen Suchalgorithmus zu implementieren, obwohl der Binäre in diesem spezifischen Use Case besser performt hat. 
