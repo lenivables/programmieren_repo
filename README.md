@@ -1,5 +1,5 @@
 # Entwicklung einer Spotify-App
-Diese App simuliert eine einfache Musikverwaltungssoftware, die es dem Benutzer ermöglicht, Songs hinzuzufügen, zu löschen, zu durchsuchen, zu sortieren und Favoriten zu verwalten. Die Implementierung ist in Python gehalten und verwendet mehrere Algorithmen zum Suchen und Sortieren von Songs, um vergleichen zu können, wie die unterscheidlichen Algorithmen performen.
+In dieser Ausarbeitung wird eine App vorgestellt, die als einfache Musikverwaltungssoftware dient. Sie ermöglicht dem Benutzer, Songs hinzuzufügen, zu löschen, zu durchsuchen, zu sortieren und seine Favoriten zu verwalten. Die Implementierung erfolgt in Python und nutzt verschiedene Algorithmen für die Suche und Sortierung von Songs. Ziel ist es, die Performance dieser unterschiedlichen Algorithmen zu vergleichen und deren Effizienz in der Anwendung zu analysieren.
 ## Funktionen der App
 ### 1. Add Song
 #### Beschreibung:
