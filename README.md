@@ -15,7 +15,7 @@ Das Hinzufügen von Songs ist der Kern der Musikverwaltung. Ohne diese Funktion 
 Diese Funktion ermöglicht es dem Benutzer, einen bestimmten Song aus der Bibliothek zu entfernen. Dazu muss der Benutzer den Titel des Songs angeben, der gelöscht werden soll.
 
 #### Funktionsweise: 
-Die Funktion sucht den Song basierend auf dem eingegebenen Titel. Wenn der Song in der Bibliothek gefunden wird, wird er aus der Liste entfernt. Dies kann durch eine lineare oder eine binäre Suche geschehen (abhängig davon, ob die Liste sortiert ist). Anschließend wird das entsprechende Objekt aus der Datenstruktur gelöscht.
+Die Funktion sucht den Song basierend auf dem eingegebenen Titel. Wenn der Song in der Bibliothek gefunden wird, wird er aus der Liste entfernt. Anschließend wird das entsprechende Objekt aus der Datenstruktur gelöscht.
 ### 3. Display Song
 #### Beschreibung: 
 Diese Funktion zeigt alle in der Bibliothek gespeicherten Songs in einer geordneten oder ungeordneten Liste an. Der Benutzer erhält eine Übersicht über die gespeicherten Titel, Künstler und Alben.
